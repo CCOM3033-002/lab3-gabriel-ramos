@@ -23,30 +23,17 @@ int main(){
     // Despliegar numeros aleatorios generados.
     cout << "Los números generados son: " << numeroAleatorio_1 << ", " << numeroAleatorio_2 << " y " << numeroAleatorio_3 << ".\n";
 
-    // Despliegar antes para no repetirse en cada bloque.
+
+    int big, med, small;
+
+    //
     cout << "En orden descendiente son: ";
 
     // Reorganiza los numeros en orden descendiente.
-    // 1 2 3
-    if (numeroAleatorio_1 >= numeroAleatorio_2 && numeroAleatorio_2 >= numeroAleatorio_3)
-        cout << numeroAleatorio_1 << " >= " << numeroAleatorio_2 << " >= " << numeroAleatorio_3;
-    // 1 3 2
-    else if (numeroAleatorio_1 >= numeroAleatorio_3 && numeroAleatorio_3 >= numeroAleatorio_2)
-        cout << numeroAleatorio_1 << " >= " << numeroAleatorio_3 << " >= " << numeroAleatorio_2;
-    // 2 1 3
-    else if (numeroAleatorio_2 >= numeroAleatorio_1 && numeroAleatorio_1 >= numeroAleatorio_3)
-        cout << numeroAleatorio_2 << " >= " << numeroAleatorio_1 << " >= " << numeroAleatorio_3;
-    // 2 3 1
-    else if (numeroAleatorio_2 >= numeroAleatorio_3 && numeroAleatorio_3 >= numeroAleatorio_1)
-        cout << numeroAleatorio_2 << " >= " << numeroAleatorio_3 << " >= " << numeroAleatorio_1;
-    // 3 1 2
-    else if (numeroAleatorio_3 >= numeroAleatorio_1 && numeroAleatorio_1 >= numeroAleatorio_2)
-        cout << numeroAleatorio_3 << " >= " << numeroAleatorio_1 << " >= " << numeroAleatorio_2;
-    // 3 2 1
-    else 
-        cout << numeroAleatorio_3 << " >= " << numeroAleatorio_2 << " >= " << numeroAleatorio_1;
+    if (numeroAleatorio_1 >= numeroAleatorio_2 && numeroAleatorio_1 >= numeroAleatorio_3)
+        big = numeroAleatorio_1;
+    else if ()
 
-    // Despliegar despues para no repetir en cada bloque. 
     cout << ".\n"; 
 
     return 0;
